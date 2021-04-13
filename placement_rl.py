@@ -15,6 +15,7 @@ def check_state(Q, knapsack, actions):
     :param Q: Q table
     :param knapsack: 背包
     :param actions: 所有可執行的action
+    :return: Q table
     """
 
     if str(knapsack) not in Q.index:  # knapsack表示状态, 例如现在包里有[1,2]
